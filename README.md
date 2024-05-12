@@ -83,3 +83,9 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 [MIT]((https://opensource.org/licenses/MIT)) 
 
 Please refer to the [LICENSE](./LICENSE) file for more licensing information.
+
+
+
+![alt text](images/Note-page1.png)
+
+![alt text](images/Note-page2.png)
