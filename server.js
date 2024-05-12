@@ -1,7 +1,7 @@
 const express = require('express');
 const pageRouter = require('./routes/pages');
-const app = express(); // 
-const noteRoutes = require('./routes/notes') //Imports routes from notes.js
+const app = express(); 
+const noteRoutes = require('./routes/notes') 
 const PORT = process.env.PORT || 3001;
 
 app.use(express.json())

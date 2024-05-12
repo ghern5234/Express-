@@ -9,6 +9,7 @@ const path = require("path");
 pageRouter.get("/notes", (req, res) => {
   res.sendFile(path.join(__dirname, "../public/notes.html"));
 });
+
 //Route Handling: The code defines two routes, specifying the behavior when these routes are accessed via HTTP GET requests when someone visits '/'
 pageRouter.get("*", (req, res) => {
     res.sendFile(path.join(__dirname, "../public/index.html"));
