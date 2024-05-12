@@ -9,6 +9,7 @@ Welcome to Express Note-Taker! This application allows you to easily jot down an
 
 
 
+
 ## Table of Contents
 
 - [Features](#features)
@@ -29,6 +30,17 @@ Welcome to Express Note-Taker! This application allows you to easily jot down an
 
 
 
+## Technologies Used
+
+- Express.js
+- Node.js
+- HTML
+- Bootstrap
+- Font Awesome
+
+
+
+
 ## Installation
 
 To run this application locally, follow these steps:
@@ -38,7 +50,10 @@ To run this application locally, follow these steps:
 - Install dependencies by running `npm install`.
 - Then tart the server by running `npm start`.
 - Open your browser and go to http://localhost:3001 to view the application.
-- For a visual demonstration, please refer to the [tutorial video]().
+- For a visual demonstration, please refer to the [tutorial video](https://drive.google.com/file/d/1FYqjF7mgYsiSRBMAvNo_MelwUNlwtNR0/view).
+
+
+
 
 ## Usage
 
@@ -47,7 +62,10 @@ To run this application locally, follow these steps:
 - Click on the save icon to 'save note' button on the top right of the screen.
 - To view a note, simply click on it from the list on the left.
 - To delete a note, click on the trash can icon next to the note.
-- For a visual demonstration, please refer to the [tutorial video]().
+- For a visual demonstration, please refer to the [tutorial video](https://drive.google.com/file/d/1FYqjF7mgYsiSRBMAvNo_MelwUNlwtNR0/view).
+
+
+
 
 ## Contributing
 
@@ -56,6 +74,8 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 - Create a new branch for your changes.
 - Commit your changes with a descriptive message.
 - Submit a pull request.
+
+
 
 
 ## License
