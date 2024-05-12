@@ -1,128 +1,65 @@
-# 11 Express.js: Note Taker
+# 11 Express Note Taker
+![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 
-## Your Task
 
-Your assignment is to modify starter code to create an application called Note Taker that can be used to write and save notes. This application will use an Express.js back end and will save and retrieve note data from a JSON file.
 
-The application’s front end has already been created. It's your job to build the back end, connect the two, and then deploy the entire application to Render.
+## Description
 
-## User Story
+Welcome to Express Note-Taker! This application allows you to easily jot down and manage your notes. It's built on Express.js, a minimal and flexible Node.js web application framework. It's efficient, fast and easy to use.
 
-```md
-AS A small business owner
-I WANT to be able to write and save notes
-SO THAT I can organize my thoughts and keep track of tasks I need to complete
-```
 
-## Acceptance Criteria
 
-```md
-GIVEN a note-taking application
-WHEN I open the Note Taker
-THEN I am presented with a landing page with a link to a notes page
-WHEN I click on the link to the notes page
-THEN I am presented with a page with existing notes listed in the left-hand column, plus empty fields to enter a new note title and the note’s text in the right-hand column
-WHEN I enter a new note title and the note’s text
-THEN a "Save Note" button and a "Clear Form" button appear in the navigation at the top of the page
-WHEN I click on the Save button
-THEN the new note I have entered is saved and appears in the left-hand column with the other existing notes and the buttons in the navigation disappear
-WHEN I click on an existing note in the list in the left-hand column
-THEN that note appears in the right-hand column and a "New Note" button appears in the navigation
-WHEN I click on the "New Note" button in the navigation at the top of the page
-THEN I am presented with empty fields to enter a new note title and the note’s text in the right-hand column and the button disappears
-```
+## Table of Contents
 
-## Mock-Up
+- [Features](#features)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
 
-The following GIF shows the web application's appearance and functionality:
 
-![Existing notes are listed in the left-hand column with empty fields on the right-hand side for the new note’s title and text.](./Assets/11-express-homework-demo.gif)
 
-## Getting Started
 
-On the back end, the application should include a `db.json` file that will be used to store and retrieve notes using the `fs` module.
+## Features
 
-The following HTML routes should be created:
+- Create, view, and delete notes.
+- User-friendly interface for seamless note-taking experience.
+- Simple and responsive design.
 
-* `GET /notes` should return the `notes.html` file.
 
-* `GET *` should return the `index.html` file.
 
-The following API routes should be created:
 
-* `GET /api/notes` should read the `db.json` file and return all saved notes as JSON.
+## Installation
 
-* `POST /api/notes` should receive a new note to save on the request body, add it to the `db.json` file, and then return the new note to the client. You'll need to find a way to give each note a unique id when it's saved (look into npm packages that could do this for you).
+To run this application locally, follow these steps:
 
-## Bonus
+- Clone this repository.
+- Navigate to the project directory in your terminal and open the code in your IDE.
+- Install dependencies by running `npm install`.
+- Then tart the server by running `npm start`.
+- Open your browser and go to http://localhost:3001 to view the application.
+- For a visual demonstration, please refer to the [tutorial video]().
 
-You haven’t learned how to handle DELETE requests, but this application offers that functionality on the front end. As a bonus, try to add the DELETE route to the application using the following guideline:
+## Usage
 
-* `DELETE /api/notes/:id` should receive a query parameter that contains the id of a note to delete. To delete a note, you'll need to read all notes from the `db.json` file, remove the note with the given `id` property, and then rewrite the notes to the `db.json` file.
+- Click the 'get started' button to create a new note.
+- Enter your note title and content you wish to record.
+- Click on the save icon to 'save note' button on the top right of the screen.
+- To view a note, simply click on it from the list on the left.
+- To delete a note, click on the trash can icon next to the note.
+- For a visual demonstration, please refer to the [tutorial video]().
 
-## Grading Requirements
+## Contributing
 
-> **Note**: If a Challenge assignment submission is marked as “0”, it is considered incomplete and will not count towards your graduation requirements. Examples of incomplete submissions include the following:
->
-> * A repository that has no code
->
-> * A repository that includes a unique name but nothing else
->
-> * A repository that includes only a README file but nothing else
->
-> * A repository that only includes starter code
+Contributions are welcome! If you'd like to contribute to the project, please follow these steps:
+- Fork the repository.
+- Create a new branch for your changes.
+- Commit your changes with a descriptive message.
+- Submit a pull request.
 
-This Challenge is graded based on the following criteria:
 
-### Technical Acceptance Criteria: 40%
+## License
 
-* Satisfies all of the preceding acceptance criteria plus the following:
+[MIT]((https://opensource.org/licenses/MIT)) 
 
-  * Application front end must connect to an Express.js back end.
-
-  * Application back end must store notes that have a unique id in a JSON file.
-
-  * Application must be deployed to Render.
-
-### Deployment: 36%
-
-* Application deployed at live URL.
-
-* Application loads with no errors.
-
-* Application GitHub URL submitted.
-
-* GitHub repository contains application code.
-
-### Application Quality: 11%
-
-* Application console is free of errors.
-
-### Repository Quality: 13%
-
-* Repository has a unique name.
-
-* Repository follows best practices for file structure and naming conventions.
-
-* Repository follows best practices for class/id naming conventions, indentation, quality comments, etc.
-
-* Repository contains multiple descriptive commit messages.
-
-* Repository contains quality README file with description, screenshot, and link to deployed application.
-
-### Bonus: +10 Points
-
-Fulfilling the following can add up to 10 points to your grade. Note that the highest grade you can achieve is still 100:
-
-* Application allows users to delete notes.
-
-## Review
-
-You are required to submit BOTH of the following for review:
-
-* The URL of the functional, deployed application.
-
-* The URL of the GitHub repository, with a unique name and a README describing the project.
-
----
-© 2024 edX Boot Camps LLC. Confidential and Proprietary. All Rights Reserved.
+Please refer to the [LICENSE](./LICENSE) file for more licensing information.
