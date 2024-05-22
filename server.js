@@ -2,7 +2,7 @@ const express = require('express');
 const pageRouter = require('./routes/pages');
 const app = express(); 
 const noteRoutes = require('./routes/notes') 
-const PORT = process.env.PORT || 3001;
+const PORT = process.env.PORT || 1000;
 
 app.use(express.json())
 app.use(express.urlencoded({extended: true}))
