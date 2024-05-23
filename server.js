@@ -2,7 +2,7 @@ const express = require('express'); // Import the Express framework
 const pageRouter = require('./routes/pages'); // Import the page routes module
 const app = express(); // Create an instance of an Express application
 const noteRoutes = require('./routes/notes'); // Import the note routes module
-const PORT = process.env.PORT || 1000; // Set the port number form the environment variable or default to 10000
+const PORT = process.env.PORT || 3000; // Set the port number form the environment variable or default to 10000
 
 app.use(express.json()); // Middleware to parse incoming JSON requests
 app.use(express.urlencoded({extended: true})); // Middleware to parse URL-encoded data
