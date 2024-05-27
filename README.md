@@ -48,7 +48,7 @@ To run this application locally, follow these steps:
 - Clone this repository.
 - Navigate to the project directory in your terminal and open the code in your IDE.
 - Install dependencies by running `npm install`.
-- Then tart the server by running `npm start`.
+- Then start the server by running `npm start`.
 - Open your browser and go to http://localhost:3001 to view the application.
 - For a visual demonstration, please refer to the [tutorial video](https://drive.google.com/file/d/1FYqjF7mgYsiSRBMAvNo_MelwUNlwtNR0/view).
 
